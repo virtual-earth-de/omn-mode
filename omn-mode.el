@@ -2,10 +2,10 @@
 
 ;; Copyright (C) 2013  Free Software Foundation, Inc.
 
-;; Author: Phillip Lord <phillip.lord@newcastle.ac.uk>
-;; Maintainer: Phillip Lord <phillip.lord@newcastle.ac.uk>
+;; Author: Phillip Lord <phillip.lord@russet.org.uk>
+;; Maintainer: Phillip Lord <phillip.lord@russet.org.uk>
 ;; Website: https://www.russet.org.uk/blog
-;; Version: 1.2
+;; Version: 1.3
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -66,7 +66,7 @@ See `imenu-generic-expression' for details")
     "SubClassOf:"
     "Annotations:"
     "Characteristics:"
-    "DisjointUnion:"
+    "DisjointUnionOf:"
     "DisjointWith:"
     "Domain:"
     "Range:"
