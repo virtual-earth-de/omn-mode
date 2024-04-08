@@ -83,8 +83,9 @@ See `imenu-generic-expression' for details")
 
 ;; indentation engine
 (defun omn-indent-line()
-  (indent-line-to
-   (omn-determine-line-indent)))
+  (save-excursion
+    (indent-line-to
+     (omn-determine-line-indent))))
 
 (defun omn-determine-line-indent()
   (save-excursion
